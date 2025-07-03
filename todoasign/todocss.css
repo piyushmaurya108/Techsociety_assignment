@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ede4e4;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.todo_form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}
+
+.todo_items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo_label{
+    display: inline-block;
+    width: 150px;
+}
+
+.todo_submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
